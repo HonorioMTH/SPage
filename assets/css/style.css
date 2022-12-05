@@ -1,0 +1,78 @@
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 16px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: rgb(179, 16, 16);
+    font-size: 21px;
+}
+
+.p-30 {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social {
+    width: 20px;
+    height: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.tamanho{
+    width: 259px;
+    height: 194px;
+}
+
+.tamanho:hover {
+    width: 415px;
+    height: 259px;
+    transition-duration: 3s;
+    transition-delay: 50ms;
+}
+
+.tituloMoto{
+    text-align:center
+}
+
+.colorCinza{
+    color: gray;
+}
+
+#tituloEsub{
+    display: inline;
+}
